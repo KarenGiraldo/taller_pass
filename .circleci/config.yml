@@ -29,7 +29,7 @@ jobs:
           name: Deploy to Railway App
           command: |
             cd bankchurn-api 
-            railway up --service=taller
+            railway up --service=focused-unity
 
 
 tags_only: &tags_only
